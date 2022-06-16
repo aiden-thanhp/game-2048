@@ -296,6 +296,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function checkWin() {
     if (numbers.flat().includes(2048)) {
       const newMessage = document.createElement("h2");
+      newMessage.classList.add("text-center", "mb-3");
       newMessage.innerHTML = "Congratulations! You Win";
       messageContainer.appendChild(newMessage);
     }
@@ -305,7 +306,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!document.querySelector(".game-over")) {
       if (!checkWin() && noAdjacent()) {
         const newMessage = document.createElement("h2");
-        newMessage.classList.add("game-over");
+        newMessage.classList.add("game-over", "text-center", "mb-3");
         newMessage.innerHTML = "Game Over!";
         messageContainer.appendChild(newMessage);
       }
