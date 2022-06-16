@@ -1,0 +1,82 @@
+/* Creating style for board */
+
+.board {
+    width: 400px;
+    height: 400px;
+    background-color: #cdc1b5;
+    border: 6px solid #bbada0;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+/* Creating style for tiles */
+
+.tile {
+    width: 97px;
+    height: 97px;
+    border: 6px solid #bbada0;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.n2 {
+    background-color: #eee4da;
+    color: #776e65;
+}
+
+.n4 {
+    background-color: #ede0c8;
+    color: #776e65;
+}
+
+.n8 {
+    background-color: #f2b179;
+    color: #f9f6f2;
+}
+
+.n16 {
+    background-color: #f59563;
+    color: #f9f6f2;
+}
+
+.n32 {
+    background-color: #f67c5f;
+    color: #f9f6f2;
+}
+
+.n64 {
+    background-color: #f65e3b;
+    color: #f9f6f2;
+}
+
+.n128 {
+    background-color: #edcf72;
+    color: #f9f6f2;
+}
+
+.n256 {
+    background-color: #edcc61;
+    color: #f9f6f2;
+}
+
+.n512 {
+    background-color: #edc850;
+    color: #f9f6f2;
+}
+
+.n1024 {
+    background-color: #edc53f;
+    color: #f9f6f2;
+    font-size: 35px;
+}
+
+.n2048 {
+    background-color: #edc22e;
+    color: #f9f6f2;
+    font-size: 35px;
+}
