@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+  //Create a board for all 0
   const boardDisplay = document.querySelector(".board");
   const numbers = [
     [0, 0, 0, 0],
@@ -7,6 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     [0, 0, 0, 0]
   ];
 
+  //Create a selector for showing Game Over or Winning message
   const messageContainer = document.querySelector(".header");
 
   //Create a board tiles
